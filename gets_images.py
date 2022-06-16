@@ -9,7 +9,6 @@ def getHtmlContent(url):
     page = requests.get(url)
     return page.text
 
-
 # 从html中解析出所有jpg图片的url
 # 百度贴吧html中jpg图片的url格式为：<img ... src="XXX.jpg" width=...>
 def getJPGs(html):
