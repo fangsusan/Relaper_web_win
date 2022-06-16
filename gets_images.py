@@ -4,7 +4,6 @@
 import requests
 import re
 
-
 # 根据url获取网页html内容
 def getHtmlContent(url):
     page = requests.get(url)
